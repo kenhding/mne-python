@@ -18,6 +18,7 @@ def export_raw(
     *,
     overwrite=False,
     verbose=None,
+    unit=dict( eeg="uV", ecog="uV", seeg="uV", eog="uV", ecg="uV", emg="uV", bio="uV", dbs="uV" )
 ):
     """Export Raw to external formats.
 
